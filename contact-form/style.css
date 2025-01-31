@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ body{
+    font-family: 'Poppins';
+    font-weight: 400;
+ }
+.nav{
+  display: flex;
+}
+
+ a{
+    text-decoration: none;
+    color: black;
+
+ }
+
+ li {
+    display: inline-block;
+    margin-left: 80px; 
+    width: 5px; 
+    font-size:14px ;
+    font-weight: 500;
+    margin-top: 20px;
+
+}
+
+.nav-logo img{
+    width: 70px;
+    margin-left: 40px;
+ }
+ 
+ .nav-links{
+    margin-left: 45%;
+
+ }
+/* .................................................... */
+.form{
+    margin-top: 30px;
+    margin-left: 90px;
+    width: 80%;
+
+}
+.form h2{
+    color: #BA68C8;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+.home{
+    display: flex;
+
+    gap: 180px;
+}
+
+
+.home-img img{
+    width: 95%;
+    height: 70%;
+    margin-top: 40px;
+
+}
+
+input[type=text] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-color: #DCB3E3;
+    border-radius: 10px;
+    
+  }
+  label{
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .btn{
+    width: 80%;
+    padding: 12px 20px;
+    background-color: #BA68C8;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px #DCB3E3;
+    margin-top: 50px;
+
+
+  }
+
+  /* .................................................. */
+
+
+
+
+
+  .details{
+    margin-left: 52%;
+    width: 30%;
+  }
+  
+  .logos {
+    background-color: #DCB3E3;
+    margin-left: 95%;
+    padding: 10px;
+    width: 6%;
+    border-radius: 20px;
+    
+}
+
+
+
+.logos img {
+    height: 50px; 
+    background-color: darkmagenta; 
+    border-radius: 50%; 
+    padding: 10px; 
+}
+
+
+/* ......................... */
